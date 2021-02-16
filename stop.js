@@ -56,7 +56,7 @@ function pause() {
 
 function reser() {
     clearInterval(intervalId);
-    print('00:00:00:00');
+    print('00 : 00 : 00');
     elaspsedTime = 0;
     lap.style.display = 'none';
     laps.style.display = 'none';

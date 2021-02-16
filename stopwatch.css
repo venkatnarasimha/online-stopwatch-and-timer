@@ -140,11 +140,11 @@ button:focus {
 }
 
 .above-footer {
-  min-height: calc(100vh - 650px);
+  min-height: calc(100vh - 470px);
 }
 
 .above-footers {
-  min-height: calc(100vh - 269px);
+  min-height: calc(100vh - 456px);
 }
 
 .above-footers-1 {
