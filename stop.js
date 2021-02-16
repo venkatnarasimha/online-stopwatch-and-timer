@@ -15,15 +15,15 @@ function timeToString(time) {
     const mm = Math.floor(diffmm);
     const diffss = (diffmm - mm) * 60;
     const ss = Math.floor(diffss);
-    const diffMs = (diffss - ss) * 100;
-    const ms = Math.floor(diffMs);
+    //const diffMs = (diffss - ss) * 100;
+    //const ms = Math.floor(diffMs);
 
     const formattedhh = hh.toString().padStart(2, '0');
     const formattedmm = mm.toString().padStart(2, '0');
     const formattedss = ss.toString().padStart(2, '0');
-    const formattedms = ms.toString().padStart(2, '0');
+    // const formattedms = ms.toString().padStart(2, '0');
 
-    return `${formattedhh}:${formattedmm}:${formattedss}:${formattedms}`;
+    return `${formattedhh}:${formattedmm}:${formattedss}`;
 }
 
 function printLap(arr) {
